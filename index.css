@@ -46,7 +46,7 @@ body {
 
   .inspiration{
     
-    background-image: url('computer-laptop-technology-office.jpg');
+    background-image: url('56eef36c0572b4320dd5c579b3286051.jpg');
      background-size: cover;
      width:100%;
      height: 670px;;
@@ -61,7 +61,7 @@ body {
     font-weight: bold; 
     font-size: 300%; 
     z-index:1;
-    width:100%; color:#2900fffa;
+    width:100%; color:white;
     font-family:Times New Roman;
 
   }
@@ -71,9 +71,9 @@ body {
     width:100%;
     font-weight: bold;
     z-index:1;
-    font-size: 200%;
+    font-size: 250%;
     font-family:Times New Roman; 
-    color: #2900fffa;
+    color: white;
 
   }
 
@@ -81,8 +81,8 @@ body {
     margin-top:30%; width:100%; 
     text-align: center; 
      font-weight: bold;
-     color:#2900fffa; 
-      font-size: 100%;text-align: center;
+     color:white; 
+      font-size: 130%;text-align: center;
        padding-left:5%;
        padding-right:5%;
   }
