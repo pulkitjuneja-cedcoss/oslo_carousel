@@ -1,0 +1,246 @@
+
+
+body {
+    overflow: hidden;
+  }
+
+  .container1 {
+     position: relative;
+  }
+
+
+  .next {
+    position: absolute;
+    left: 95%;
+    top: 45vh;
+    font-size: 3vw;
+  }
+
+  .prev {
+    position: absolute;
+    top: 45vh;
+    font-size: 3vw;
+  }
+
+  .arrow{
+    border: none;
+    background: transparent;
+  }
+
+  .dot{
+    position: absolute;
+    top: 85vh;
+  }
+
+  .dot1 {
+    left: 48vw;
+  }
+
+  .dot2 {
+    left: 50vw;
+  }
+
+  .dot3 {
+    left: 52vw;
+  }
+
+  .inspiration{
+    
+    background-image: url('computer-laptop-technology-office.jpg');
+     background-size: cover;
+     width:100%;
+     height: 670px;;
+     background-position: center;
+     background-repeat: no-repeat;
+     opacity: 70%;
+     
+  }
+
+  .content1{
+    top:10%;text-align: center;
+    font-weight: bold; 
+    font-size: 300%; 
+    z-index:1;
+    width:100%; color:#2900fffa;
+    font-family:Times New Roman;
+
+  }
+
+  .content2{
+    top:20%;text-align: center; 
+    width:100%;
+    font-weight: bold;
+    z-index:1;
+    font-size: 200%;
+    font-family:Times New Roman; 
+    color: #2900fffa;
+
+  }
+
+  .content3{
+    margin-top:30%; width:100%; 
+    text-align: center; 
+     font-weight: bold;
+     color:#2900fffa; 
+      font-size: 100%;text-align: center;
+       padding-left:5%;
+       padding-right:5%;
+  }
+
+  .imgborder{
+    width:45%;height:50%; 
+    border-top-right-radius: 50px;
+    position:absolute;
+    border-bottom-right-radius: 100px; 
+    border:3px solid #007a99;
+     border-top-left-radius: 50px; 
+     border-top-right-radius: 100px;
+      border-bottom-left-radius: 50px; 
+      z-index:-1;
+       margin-left:12%; 
+      margin-top: 20% 
+  }
+
+
+  .foot{
+    list-style: none;
+    float: left;
+     margin-left:10%;
+
+  }
+  .icon{
+    font-size: 200%;
+    color:black; 
+  }
+
+  .better{
+    background-image: url('photo-1593642634315-48f5414c3ad9.jpeg'); 
+    width:100%; height:auto; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .pcontent{
+      color :#008E97;
+      position:absolute;  
+      left:10%; 
+      font-size: 200%;
+  }
+
+  .labeling{
+    color: #008E97;
+    top:15%;
+    font-weight: bold; 
+    font-size:150%;
+     position: absolute;
+
+  }
+  .input_data{
+    top:22%;
+    width:65%;
+     height:6%; background-color: grey;
+    border-radius: 5px;
+    position: absolute;
+     border: #007a99;
+     text-align:center;
+
+ }
+ .btn4{
+    color:#007a99;
+    font-weight: bold;
+    background-color:white;
+     margin-left: 30%;
+      margin-top:4%
+ }
+
+ .box{
+    width:100%;background-color: #007a99; padding-bottom: 3%;
+ }
+
+ .box_content{
+    font-weight: bold; 
+    font-family: Times New Roman; 
+     font-size: 200%;
+      color: white;
+      margin-top:4%;
+       float:left; 
+      margin-left: 3%;
+ }
+
+ .btn5{
+    top:70%; 
+    background-color: #008E97;
+    color: white;
+    position: absolute;
+    font-size:130%;
+    width:65%;
+     padding:1%; 
+     border-radius: 8px;
+      margin-top: 4%;
+ }
+
+  @media only screen and (min-width:375px) and (max-width:1300px) {
+
+    .dot{
+      position: absolute;
+      top: 85vh;
+    }
+    
+    .dot1 {
+      left: 48vw;
+    }
+
+    .dot2 {
+      left:50vw;
+    }
+
+    .dot3 {
+      left: 52vw;  
+    }
+
+    .next {
+        position: absolute;
+        left: 95%;
+        top: 45vh;
+        font-size: 3vw;
+      }
+    
+      .prev {
+        position: absolute;
+        top: 45vh;
+        font-size: 3vw;
+      }
+
+      /* .content3{
+        margin-top:20vh; width:100%; 
+        text-align: center; 
+         font-weight: bold;
+         color:#2900fffa; 
+          font-size: 130%;text-align: center;
+           padding-left:5%;
+           padding-right:5%;
+      } */
+
+      /* .content1{
+        top:10%;text-align: center;
+        font-weight: bold; 
+        font-size: 300%; 
+        z-index:1;
+        width:100%; color:#2900fffa;
+        font-family:Times New Roman;
+    
+      }
+    
+      .content2{
+        top:20%;text-align: center; 
+        width:100%;
+        font-weight: bold;
+        z-index:1;
+        font-size: 200%;
+        font-family:Times New Roman; 
+        color: #2900fffa;
+    
+      } */
+
+  }
